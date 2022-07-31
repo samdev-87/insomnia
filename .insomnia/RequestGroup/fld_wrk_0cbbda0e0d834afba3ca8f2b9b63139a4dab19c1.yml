@@ -1,0 +1,10 @@
+_id: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139a4dab19c1
+type: RequestGroup
+parentId: wrk_0cbbda0e0d834afba3ca8f2b9b63139a
+modified: 1659071645946
+created: 1659071645946
+name: Авторизация работодателя
+description: Методы для получение токена [пользователя](#get-auth).
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1659071645946

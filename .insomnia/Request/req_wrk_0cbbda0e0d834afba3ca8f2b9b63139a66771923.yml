@@ -1,0 +1,33 @@
+_id: req_wrk_0cbbda0e0d834afba3ca8f2b9b63139a66771923
+type: Request
+parentId: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139ada7ee6ff
+modified: 1659071645932
+created: 1659071645932
+url: "{{ base_url }}/employers/{{ employer_id }}/managers/{{ manager_id }}"
+name: Получение информации о менеджере
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: locale
+    disabled: true
+    value: RU
+  - name: host
+    disabled: true
+    value: hh.ru
+headers:
+  - name: HH-User-Agent
+    disabled: false
+    value: string
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1659071645932
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

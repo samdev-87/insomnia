@@ -1,0 +1,36 @@
+_id: req_wrk_0cbbda0e0d834afba3ca8f2b9b63139a71bf3442
+type: Request
+parentId: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139ac418f5f7
+modified: 1659071645897
+created: 1659071645897
+url: "{{ base_url }}/suggests/skill_set"
+name: Подсказки по ключевым навыкам
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: text
+    disabled: false
+    value: string
+  - name: locale
+    disabled: true
+    value: RU
+  - name: host
+    disabled: true
+    value: hh.ru
+headers:
+  - name: HH-User-Agent
+    disabled: false
+    value: string
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1659071645897
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

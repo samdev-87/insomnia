@@ -1,0 +1,33 @@
+_id: req_wrk_0cbbda0e0d834afba3ca8f2b9b63139af9602b21
+type: Request
+parentId: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139a43d9e850
+modified: 1659071645892
+created: 1659071645892
+url: "{{ base_url }}/vacancies/drafts"
+name: Получение списка черновиков вакансий
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: locale
+    disabled: true
+    value: RU
+  - name: host
+    disabled: true
+    value: hh.ru
+headers:
+  - name: HH-User-Agent
+    disabled: false
+    value: string
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1659071645892
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

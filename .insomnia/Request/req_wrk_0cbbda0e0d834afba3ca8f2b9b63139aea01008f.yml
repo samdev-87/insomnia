@@ -1,0 +1,37 @@
+_id: req_wrk_0cbbda0e0d834afba3ca8f2b9b63139aea01008f
+type: Request
+parentId: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139ada7ee6ff
+modified: 1659266784522
+created: 1659071645931
+url: "{{ _.host }}/employers/{{ employer_id }}/managers/{{ manager_id
+  }}/limits/resume"
+name: Дневной лимит просмотра резюме для текущего менеджера
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: locale
+    disabled: true
+    value: RU
+    id: pair_ca85c37569964faa8b365960c07d7de1
+  - name: host
+    disabled: true
+    value: hh.ru
+    id: pair_97e58926a6824d078edfc9db4403a41a
+headers:
+  - name: HH-User-Agent
+    disabled: false
+    value: string
+    id: pair_6ac2d9ae22204108a4b948dba42a6255
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1659071645931
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,52 @@
+_id: req_wrk_0cbbda0e0d834afba3ca8f2b9b63139aa4d404c6
+type: Request
+parentId: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139ab94a9baf
+modified: 1659266047811
+created: 1659071645913
+url: "{{ base_url }}/oauth/token"
+name: Получение access-токена
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_e86be6047bbb485a8be327bb559bca7c
+      name: grant_type
+      value: client_credentials
+      description: ""
+    - id: pair_b11ea6cf6b5341e4ac7a6210e1457544
+      name: code
+      value: authorization_code
+      description: ""
+      disabled: true
+    - id: pair_15a086dca37d462b9a37d11a6b306cb8
+      name: client_id
+      value: IKGBSFHG0MNDGRRRRTE9C4ACQ6M8S44A97RTTC3LS0TC7R922HFE7IK3BPJ3JTKN
+      description: ""
+    - id: pair_241eb9b876bc42e5b023963b951e6e28
+      name: client_secret
+      value: RD9VQ4BAADG4KV29QQI7AJF6CPS0258KGAS89OCKIR57QQVOKOS9G0QBNSMOU9NC
+      description: ""
+    - id: pair_7de33680f7574fb884a649071323b23f
+      name: redirect_uri
+      value: https://example.com/oauth
+      description: ""
+parameters: []
+headers:
+  - id: pair_2887a4467a564013a3138d2752bc710c
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+    description: ""
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+  disabled: false
+metaSortKey: -1659071645913
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

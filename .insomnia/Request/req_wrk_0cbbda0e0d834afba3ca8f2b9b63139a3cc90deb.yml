@@ -1,0 +1,36 @@
+_id: req_wrk_0cbbda0e0d834afba3ca8f2b9b63139a3cc90deb
+type: Request
+parentId: wrk_0cbbda0e0d834afba3ca8f2b9b63139a
+modified: 1659266026309
+created: 1659071645936
+url: "{{ base_url }}/employers/{{ employer_id }}"
+name: Информация о работодателе
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: locale
+    disabled: true
+    value: RU
+    id: pair_c1903a4c32b0484aa99bfb221c412d7b
+  - name: host
+    disabled: true
+    value: hh.ru
+    id: pair_f469f2f184be4f6aac3e1b8f55ffd135
+headers:
+  - name: HH-User-Agent
+    disabled: false
+    value: string
+    id: pair_8b102cb4eb3d4437b53974506c8c74ce
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1659071645936
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,60 @@
+_id: req_wrk_0cbbda0e0d834afba3ca8f2b9b63139af637f493
+type: Request
+parentId: wrk_0cbbda0e0d834afba3ca8f2b9b63139a
+modified: 1659266027912
+created: 1659071645937
+url: "{{ base_url }}/employers"
+name: Поиск работодателя
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: text
+    disabled: true
+    value: string
+    id: pair_48c223af22754393a60824e9fd7f41d1
+  - name: area
+    disabled: true
+    value: string
+    id: pair_66fea18e1eff4cae950dc57e46a9ce8c
+  - name: type
+    disabled: true
+    value: string
+    id: pair_6777d875e91c4bbe9e5f3a7186f24c56
+  - name: only_with_vacancies
+    disabled: true
+    value: "true"
+    id: pair_36ad35e264d44911ab810ec02db2ecc3
+  - name: page
+    disabled: true
+    value: "0"
+    id: pair_1e76f707188744089ce346c65aa913eb
+  - name: per_page
+    disabled: true
+    value: "0"
+    id: pair_12daa771dd134b3dab745cf943e70a93
+  - name: locale
+    disabled: true
+    value: RU
+    id: pair_aa3d8ad6961448d59ad2609ff6937dde
+  - name: host
+    disabled: true
+    value: hh.ru
+    id: pair_2fd3b2f061214642986e8c0cb71df0fb
+headers:
+  - name: HH-User-Agent
+    disabled: false
+    value: string
+    id: pair_0960f39b3deb4faf8df29097da677008
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1659071645937
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

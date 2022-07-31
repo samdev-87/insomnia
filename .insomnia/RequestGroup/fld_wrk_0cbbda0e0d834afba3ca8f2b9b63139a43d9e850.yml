@@ -1,0 +1,10 @@
+_id: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139a43d9e850
+type: RequestGroup
+parentId: wrk_0cbbda0e0d834afba3ca8f2b9b63139a
+modified: 1659071645945
+created: 1659071645945
+name: Черновики вакансий
+description: Методы для работы с черновиками вакансий
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1659071645945

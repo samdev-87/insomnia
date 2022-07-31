@@ -1,0 +1,10 @@
+_id: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139ada7ee6ff
+type: RequestGroup
+parentId: wrk_0cbbda0e0d834afba3ca8f2b9b63139a
+modified: 1659071645942
+created: 1659071645942
+name: Менеджеры работодателя
+description: Методы для работы с менеджерами работодателя
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1659071645942

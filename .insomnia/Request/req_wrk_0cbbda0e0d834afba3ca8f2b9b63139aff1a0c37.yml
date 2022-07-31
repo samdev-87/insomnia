@@ -1,0 +1,36 @@
+_id: req_wrk_0cbbda0e0d834afba3ca8f2b9b63139aff1a0c37
+type: Request
+parentId: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139ada7ee6ff
+modified: 1659071645933
+created: 1659071645933
+url: "{{ base_url }}/employers/{{ employer_id }}/managers/{{ manager_id }}"
+name: Удаление менеджера
+description: ""
+method: DELETE
+body: {}
+parameters:
+  - name: successor_id
+    disabled: false
+    value: string
+  - name: locale
+    disabled: true
+    value: RU
+  - name: host
+    disabled: true
+    value: hh.ru
+headers:
+  - name: HH-User-Agent
+    disabled: false
+    value: string
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1659071645933
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

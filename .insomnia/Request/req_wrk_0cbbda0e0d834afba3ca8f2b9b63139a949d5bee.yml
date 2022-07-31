@@ -1,0 +1,37 @@
+_id: req_wrk_0cbbda0e0d834afba3ca8f2b9b63139a949d5bee
+type: Request
+parentId: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139a911323a0
+modified: 1659266036500
+created: 1659071645906
+url: "{{ base_url }}/resume_phone_generate_code"
+name: Отправить код подтверждения для телефона резюме
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded'
+parameters:
+  - name: locale
+    disabled: true
+    value: RU
+    id: pair_0787fc8e5f2d45169ec75e012eb6b1a4
+  - name: host
+    disabled: true
+    value: hh.ru
+    id: pair_8786e8c3c1f14a3fb2ab685eee5f8037
+headers:
+  - name: HH-User-Agent
+    disabled: false
+    value: string
+    id: pair_cbeadf6fecd74c02bcc465ebebee5491
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1659071645906
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

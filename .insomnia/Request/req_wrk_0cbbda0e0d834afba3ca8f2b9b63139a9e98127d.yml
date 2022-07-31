@@ -1,0 +1,134 @@
+_id: req_wrk_0cbbda0e0d834afba3ca8f2b9b63139a9e98127d
+type: Request
+parentId: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139a43d9e850
+modified: 1659071645891
+created: 1659071645891
+url: "{{ base_url }}/vacancies/drafts"
+name: Создание черновика вакансии
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "accept_handicapped": true,
+      "accept_incomplete_resumes": true,
+      "accept_kids": true,
+      "accept_temporary": true,
+      "address": {
+        "id": "string",
+        "show_metro_only": true
+      },
+      "allow_messages": true,
+      "area": {
+        "id": 1625
+      },
+      "billing_type": {
+        "id": "string"
+      },
+      "branded_template": {
+        "id": "default",
+        "name": "Стандартный шаблон"
+      },
+      "code": "string",
+      "contacts": {
+        "email": "string",
+        "phones": [
+          null
+        ]
+      },
+      "custom_employer_name": "string",
+      "department": {
+        "id": "string"
+      },
+      "description": "string",
+      "driver_license_types": [
+        {
+          "id": "string"
+        }
+      ],
+      "employment": {
+        "id": "string"
+      },
+      "experience": {
+        "id": "string"
+      },
+      "key_skills": [
+        {
+          "name": "string"
+        }
+      ],
+      "languages": [
+        {
+          "id": "string",
+          "level": {
+            "id": "string"
+          }
+        }
+      ],
+      "name": "string",
+      "professional_roles": [
+        {
+          "id": "string"
+        }
+      ],
+      "response_letter_required": true,
+      "response_notifications": true,
+      "response_url": "string",
+      "salary": {
+        "currency": "string",
+        "from": 0,
+        "gross": true,
+        "to": 0
+      },
+      "schedule": {
+        "id": "string"
+      },
+      "test": {
+        "id": "string",
+        "required": true
+      },
+      "type": {
+        "id": "string"
+      },
+      "working_days": [
+        {
+          "id": "string"
+        }
+      ],
+      "working_time_intervals": [
+        {
+          "id": "string"
+        }
+      ],
+      "working_time_modes": [
+        {
+          "id": "string"
+        }
+      ]
+    }
+parameters:
+  - name: locale
+    disabled: true
+    value: RU
+  - name: host
+    disabled: true
+    value: hh.ru
+headers:
+  - name: HH-User-Agent
+    disabled: false
+    value: string
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1659071645891
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

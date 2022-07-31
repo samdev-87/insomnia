@@ -1,0 +1,26 @@
+_id: env_env_c04efd8fe592ce9046af816e5eec24023801fadc_sub
+type: Environment
+parentId: env_c04efd8fe592ce9046af816e5eec24023801fadc
+modified: 1659266353539
+created: 1659071645948
+name: OpenAPI env
+data:
+  scheme: https
+  base_path: https://api.hh.ru
+  host: api.hh.ru
+  bearerToken: SFL44LMBTO2GQKIQ9CGI3O1B1HV0EQ9NA9KQ0S2QURDGR3DB8L8BU5KI7K10QIJ6
+  base_url: https://hh.ru
+  employer_id: 5140422
+  manager_id: 11044016
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+    - bearerToken
+    - base_url
+    - employer_id
+    - manager_id
+color: null
+isPrivate: false
+metaSortKey: 1659071645948

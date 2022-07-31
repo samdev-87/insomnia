@@ -1,0 +1,25 @@
+_id: req_wrk_0cbbda0e0d834afba3ca8f2b9b63139aa4d404c62
+type: Request
+parentId: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139a72726965
+modified: 1659266058127
+created: 1659071645908
+url: "{{ base_url }}/oauth/token"
+name: Получение access-токена
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1659071645908
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

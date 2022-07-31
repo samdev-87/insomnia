@@ -1,0 +1,10 @@
+_id: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139ae21f9a2d
+type: RequestGroup
+parentId: wrk_0cbbda0e0d834afba3ca8f2b9b63139a
+modified: 1659071645941
+created: 1659071645941
+name: Общие справочники
+description: Методы для получения справочной информации независимые от авторизации
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1659071645941

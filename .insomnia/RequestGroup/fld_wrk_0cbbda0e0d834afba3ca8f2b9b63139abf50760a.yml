@@ -1,0 +1,10 @@
+_id: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139abf50760a
+type: RequestGroup
+parentId: wrk_0cbbda0e0d834afba3ca8f2b9b63139a
+modified: 1659071645938
+created: 1659071645938
+name: Информация о приложении
+description: Методы для просмотра информации о приложении
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1659071645938

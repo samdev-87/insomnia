@@ -1,0 +1,27 @@
+_id: req_6abcebedffa840bba70d308d42d02378
+type: Request
+parentId: wrk_0cbbda0e0d834afba3ca8f2b9b63139a
+modified: 1659072522010
+created: 1659064558978
+url: https://api.hh.ru/me
+name: Информация о текущем пользователе
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_2363521bf1e649eb94faab95d52c8601
+    name: HH-User-Agent
+    value: AnnaAnna (marikklyukina@gmail.com)
+    description: ""
+authentication:
+  type: oauth2
+  grantType: authorization_code
+metaSortKey: -1658988902956
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

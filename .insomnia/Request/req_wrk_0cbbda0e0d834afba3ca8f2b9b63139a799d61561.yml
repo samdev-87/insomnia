@@ -1,0 +1,36 @@
+_id: req_wrk_0cbbda0e0d834afba3ca8f2b9b63139a799d61561
+type: Request
+parentId: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139a5bd887da
+modified: 1659071764228
+created: 1659071645922
+url: "{{ base_url }}/me"
+name: Информация о текущем пользователе
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: locale
+    disabled: true
+    value: RU
+    id: pair_d04034f5c19444db95b69c9aff2e39dc
+  - name: host
+    disabled: true
+    value: hh.ru
+    id: pair_9c4004433cfb42388a3873855a32bcc0
+headers:
+  - name: HH-User-Agent
+    disabled: false
+    value: AnnaAnna (marikklyukina@gmail.com)
+    id: pair_78b7b3ada4524080a8491866f2f1168e
+authentication:
+  type: bearer
+  token: IKGBSFHG0MNDGRRRRTE9C4ACQ6M8S44A97RTTC3LS0TC7R922HFE7IK3BPJ3JTKN
+  prefix: ""
+metaSortKey: -1659071645922
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

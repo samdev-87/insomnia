@@ -1,0 +1,10 @@
+_id: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139a291c6b5f
+type: RequestGroup
+parentId: wrk_0cbbda0e0d834afba3ca8f2b9b63139a
+modified: 1659071645939
+created: 1659071645939
+name: Информация о соискателе
+description: Методы для просмотра информации об авторизованном соискателе
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1659071645939

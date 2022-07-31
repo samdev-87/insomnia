@@ -1,0 +1,12 @@
+_id: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139ac418f5f7
+type: RequestGroup
+parentId: wrk_0cbbda0e0d834afba3ca8f2b9b63139a
+modified: 1659071645940
+created: 1659071645940
+name: Подсказки
+description: Методы для получения справочной информации в виде списка, элементы
+  которого частично или полностью могут совпадать со значением, отправленным в
+  одном из параметров
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1659071645940

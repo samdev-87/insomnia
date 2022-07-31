@@ -1,0 +1,40 @@
+_id: req_wrk_0cbbda0e0d834afba3ca8f2b9b63139a052550f0
+type: Request
+parentId: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139a911323a0
+modified: 1659266034747
+created: 1659071645905
+url: "{{ base_url }}/resume_should_send_sms"
+name: Получить информацию о телефоне соискателя
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: phone
+    disabled: false
+    value: "0"
+    id: pair_8e36a7d888c94eb5a4d8af83945cd9d6
+  - name: locale
+    disabled: true
+    value: RU
+    id: pair_4ab88cca3c6b4651aa199cced9f6b4d7
+  - name: host
+    disabled: true
+    value: hh.ru
+    id: pair_28f2c89d45f643e2968a8199d0936e39
+headers:
+  - name: HH-User-Agent
+    disabled: false
+    value: string
+    id: pair_244f6bf6d2204bcbb224dbe3d0b21255
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1659071645905
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

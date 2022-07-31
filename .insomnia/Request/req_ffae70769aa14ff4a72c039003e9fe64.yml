@@ -1,0 +1,26 @@
+_id: req_ffae70769aa14ff4a72c039003e9fe64
+type: Request
+parentId: wrk_0cbbda0e0d834afba3ca8f2b9b63139a
+modified: 1659071514132
+created: 1658988903006
+url: https://api.hh.ru/employers/5140422/managers/11044016/limits/resume
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_7f4bdeee5b41473fbb9d6c1fff0f91b9
+    name: HH-User-Agent
+    value: AnnaAnna/1.0 (marikklyukina@gmail.com)
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1658988903006
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

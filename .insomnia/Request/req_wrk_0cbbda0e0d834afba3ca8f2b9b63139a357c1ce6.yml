@@ -1,0 +1,39 @@
+_id: req_wrk_0cbbda0e0d834afba3ca8f2b9b63139a357c1ce6
+type: Request
+parentId: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139a43d9e850
+modified: 1659071645886
+created: 1659071645886
+url: "{{ base_url }}/vacancies/drafts/{{ draft_id }}/publish"
+name: Публикация вакансии на основе черновика
+description: ""
+method: POST
+body: {}
+parameters:
+  - name: ignore_duplicates
+    disabled: true
+    value: "true"
+  - name: with_professional_roles
+    disabled: true
+    value: "true"
+  - name: locale
+    disabled: true
+    value: RU
+  - name: host
+    disabled: true
+    value: hh.ru
+headers:
+  - name: HH-User-Agent
+    disabled: false
+    value: string
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1659071645886
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

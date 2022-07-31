@@ -1,0 +1,11 @@
+_id: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139ab94a9baf
+type: RequestGroup
+parentId: wrk_0cbbda0e0d834afba3ca8f2b9b63139a
+modified: 1659071645947
+created: 1659071645947
+name: Авторизация приложения
+description: <a name="app_auth"></a>Методы для получение токена
+  [приложения](#get-client-auth).
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1659071645947

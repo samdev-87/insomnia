@@ -1,0 +1,37 @@
+_id: req_wrk_0cbbda0e0d834afba3ca8f2b9b63139a7d9b3e67
+type: Request
+parentId: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139a911323a0
+modified: 1659266037220
+created: 1659071645907
+url: "{{ base_url }}/resume_phone_confirm"
+name: Подтвердить телефон кодом
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+parameters:
+  - name: locale
+    disabled: true
+    value: RU
+    id: pair_2a192b13daec4c34952b4ac0f3cbce36
+  - name: host
+    disabled: true
+    value: hh.ru
+    id: pair_66792aedd4374f949c206dd70446307a
+headers:
+  - name: HH-User-Agent
+    disabled: false
+    value: string
+    id: pair_b3fb0d02093948b38d7783ea89f57973
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1659071645907
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

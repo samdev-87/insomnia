@@ -1,0 +1,38 @@
+_id: req_2cc2cc7766634dc89f554079522a82d2
+type: Request
+parentId: wrk_0cbbda0e0d834afba3ca8f2b9b63139a
+modified: 1659266169199
+created: 1659068974619
+url: https://hh.ru/oauth/authorize
+name: Получение авторизации пользователя
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_6c11efa5db244e2c889b662357d8cb19
+    name: response_type
+    value: code
+    description: ""
+  - id: pair_079d311f0db844bc875e67abe9c1b16a
+    name: client_id
+    value: IKGBSFHG0MNDGRRRRTE9C4ACQ6M8S44A97RTTC3LS0TC7R922HFE7IK3BPJ3JTKN
+    description: ""
+  - id: pair_8bc1bea9dcd74eb4bb5d6a87cf4573fa
+    name: redirect_uri
+    value: ""
+    description: ""
+    disabled: true
+headers:
+  - id: pair_2363521bf1e649eb94faab95d52c8601
+    name: HH-User-Agent
+    value: AnnaAnna (marikklyukina@gmail.com)
+    description: ""
+authentication: {}
+metaSortKey: -1658988902906
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

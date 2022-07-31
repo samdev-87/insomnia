@@ -1,0 +1,36 @@
+_id: req_wrk_0cbbda0e0d834afba3ca8f2b9b63139aa46e1c25
+type: Request
+parentId: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139ac418f5f7
+modified: 1659071645902
+created: 1659071645902
+url: "{{ base_url }}/suggests/educational_institutions"
+name: Подсказки по названиям университетов
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: text
+    disabled: false
+    value: string
+  - name: locale
+    disabled: true
+    value: RU
+  - name: host
+    disabled: true
+    value: hh.ru
+headers:
+  - name: HH-User-Agent
+    disabled: false
+    value: string
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1659071645902
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

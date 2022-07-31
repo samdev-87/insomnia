@@ -1,0 +1,36 @@
+_id: req_wrk_0cbbda0e0d834afba3ca8f2b9b63139a6dab34c4
+type: Request
+parentId: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139ae21f9a2d
+modified: 1659071645895
+created: 1659071645895
+url: "{{ base_url }}/user_statuses/available"
+name: Справочник доступных пользовательских статусов
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: version
+    disabled: true
+    value: "0"
+  - name: locale
+    disabled: true
+    value: RU
+  - name: host
+    disabled: true
+    value: hh.ru
+headers:
+  - name: HH-User-Agent
+    disabled: false
+    value: string
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1659071645895
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

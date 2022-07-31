@@ -1,0 +1,33 @@
+_id: req_wrk_0cbbda0e0d834afba3ca8f2b9b63139a27bbc947
+type: Request
+parentId: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139a43d9e850
+modified: 1659071645890
+created: 1659071645890
+url: "{{ base_url }}/vacancies/drafts/{{ draft_id }}"
+name: Удаление черновика вакансии
+description: ""
+method: DELETE
+body: {}
+parameters:
+  - name: locale
+    disabled: true
+    value: RU
+  - name: host
+    disabled: true
+    value: hh.ru
+headers:
+  - name: HH-User-Agent
+    disabled: false
+    value: string
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1659071645890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

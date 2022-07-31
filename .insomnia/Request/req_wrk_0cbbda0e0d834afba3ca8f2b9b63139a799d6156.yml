@@ -1,0 +1,36 @@
+_id: req_wrk_0cbbda0e0d834afba3ca8f2b9b63139a799d6156
+type: Request
+parentId: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139a291c6b5f
+modified: 1659266029782
+created: 1659071645923
+url: "{{ base_url }}/me"
+name: Информация о текущем пользователе
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: locale
+    disabled: true
+    value: RU
+    id: pair_f31fe8d1f2c04882abaa732d74bb9013
+  - name: host
+    disabled: true
+    value: hh.ru
+    id: pair_8f6bc62ef00b443db31b5e0083d71512
+headers:
+  - name: HH-User-Agent
+    disabled: false
+    value: string
+    id: pair_e53de114508542d6a15def858614343c
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1659071645923
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

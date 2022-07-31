@@ -1,0 +1,37 @@
+_id: req_wrk_0cbbda0e0d834afba3ca8f2b9b63139aee0ef590
+type: Request
+parentId: fld_wrk_0cbbda0e0d834afba3ca8f2b9b63139a291c6b5f
+modified: 1659266029148
+created: 1659071645920
+url: "{{ base_url }}/me"
+name: Редактирование информации авторизованного пользователя
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+parameters:
+  - name: locale
+    disabled: true
+    value: RU
+    id: pair_e35b27d811f1408e8d41fdfb53cf5ef4
+  - name: host
+    disabled: true
+    value: hh.ru
+    id: pair_b3abdaeb38c24671a6bb3b583a29efaf
+headers:
+  - name: HH-User-Agent
+    disabled: false
+    value: string
+    id: pair_e4ac9e35e1574631a114ca09aa94d72f
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1659071645920
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

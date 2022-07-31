@@ -1,0 +1,37 @@
+_id: req_wrk_0cbbda0e0d834afba3ca8f2b9b63139a9eaeafd1
+type: Request
+parentId: wrk_0cbbda0e0d834afba3ca8f2b9b63139a
+modified: 1659266025486
+created: 1659071645929
+url: "{{ base_url }}/employers/{{ employer_id
+  }}/services/payable_api_actions/active"
+name: Информация по активным услугам API для платных методов
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: locale
+    disabled: true
+    value: RU
+    id: pair_fbefdf0a71c047a6aa7d905339b99500
+  - name: host
+    disabled: true
+    value: hh.ru
+    id: pair_c0fd69f87bd94de385d4b0a268660418
+headers:
+  - name: HH-User-Agent
+    disabled: false
+    value: string
+    id: pair_7914df135683490aac3fdec4b8fd71f1
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1659071645929
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
