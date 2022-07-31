@@ -1,0 +1,17 @@
+_id: wrk_0cbbda0e0d834afba3ca8f2b9b63139a
+type: Workspace
+parentId: null
+modified: 1659071645950
+created: 1658988902983
+name: HeadHunter API 1.0.0
+description: |
+  [Switch to English](https://api.hh.ru/openapi/en/redoc) | По-русски
+
+  В OpenAPI ведется пока что только небольшая часть документации
+  [Основная документация](https://github.com/hhru/api)
+  # Типы авторизаций
+  API поддерживает следующие уровни авторизации:
+    - [авторизация приложения](#get-client-auth)
+    - [авторизация пользователя](#get-auth)
+  <!-- ReDoc-Inject: <security-definitions> -->
+scope: design
